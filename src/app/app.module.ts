@@ -7,6 +7,8 @@ import { NavComponent } from './components/nav/nav.component';
 import { HomeComponent } from './pages/home/home.component';
 import { FilterComponent } from './components/filter/filter.component';
 import { JobComponent } from './components/job/job.component';
+import { RegisterComponent } from './components/register/register.component';
+
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { JobComponent } from './components/job/job.component';
     NavComponent,
     HomeComponent,
     FilterComponent,
-    JobComponent
+    JobComponent,
+    RegisterComponent,
+
   ],
   imports: [
     BrowserModule,
